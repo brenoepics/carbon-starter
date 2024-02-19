@@ -8,6 +8,8 @@ export default defineConfigWithTheme<ThemeConfig>({
   title: "My Awesome Project",
   description: "A VitePress Site",
   srcDir: 'src',
+  //base: '/vitepress-carbon-template/', if running on github-pages, set repository name here
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
