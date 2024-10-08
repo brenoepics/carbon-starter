@@ -7,13 +7,15 @@ To get started with this template, follow these simple steps:
    npm install
    # or
    yarn install
+   pnpm install
+   bun install
    ```
 
 2. Start the development server:
    ```
    npm run docs:dev
    # or
-   yarn run docs:dev
+   <yarn/pnpm/bun> run docs:dev
    ```
 
 3. Open your browser and visit `http://localhost:5173` to view your documentation website.
