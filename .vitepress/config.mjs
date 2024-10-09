@@ -1,15 +1,13 @@
 import { defineConfigWithTheme } from 'vitepress'
-import type { ThemeConfig } from 'vitepress-carbon'
 import baseConfig from 'vitepress-carbon/config'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfigWithTheme<ThemeConfig>({
+export default defineConfigWithTheme({
   extends: baseConfig,
   title: "My Awesome Project",
   description: "A VitePress Site",
   srcDir: 'src',
   //base: '/vitepress-carbon-template/', if running on github-pages, set repository name here
-
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -20,7 +18,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     search: {
       provider: 'local'
     },
-    
+
     sidebar: [
       {
         text: 'Examples',
